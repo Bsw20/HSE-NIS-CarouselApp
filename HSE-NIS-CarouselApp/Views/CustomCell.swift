@@ -113,7 +113,6 @@ class CustomCell: UICollectionViewCell {
     }
     
     override func layoutSubviews() {
-        print(#function)
         likeButton.imageView?.contentMode = .scaleAspectFill
         layer.cornerRadius = 4
         clipsToBounds = true
