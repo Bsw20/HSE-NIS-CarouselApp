@@ -12,6 +12,9 @@
 		3072F37525C858F600CE7C65 /* TripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3072F37425C858F600CE7C65 /* TripViewController.swift */; };
 		3072F37A25C858FC00CE7C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3072F37925C858FC00CE7C65 /* Assets.xcassets */; };
 		3072F37D25C858FC00CE7C65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3072F37B25C858FC00CE7C65 /* LaunchScreen.storyboard */; };
+		3072F39025C8668200CE7C65 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3072F38F25C8668200CE7C65 /* CustomCell.swift */; };
+		3072F39525C8703C00CE7C65 /* StackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3072F39425C8703C00CE7C65 /* StackView + Extension.swift */; };
+		3072F39925C8750800CE7C65 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3072F39825C8750800CE7C65 /* Trip.swift */; };
 		DC6358352ED839D28F97A2C8 /* Pods_HSE_NIS_CarouselApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C26F6A5BCEB089A6C0662E /* Pods_HSE_NIS_CarouselApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 		3072F37925C858FC00CE7C65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3072F37C25C858FC00CE7C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3072F37E25C858FC00CE7C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3072F38F25C8668200CE7C65 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		3072F39425C8703C00CE7C65 /* StackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Extension.swift"; sourceTree = "<group>"; };
+		3072F39825C8750800CE7C65 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		59C26F6A5BCEB089A6C0662E /* Pods_HSE_NIS_CarouselApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSE_NIS_CarouselApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7DEEF7D69539F471470B00B /* Pods-HSE-NIS-CarouselApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSE-NIS-CarouselApp.debug.xcconfig"; path = "Target Support Files/Pods-HSE-NIS-CarouselApp/Pods-HSE-NIS-CarouselApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D0083057324E38B1CEC6AF9E /* Pods-HSE-NIS-CarouselApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSE-NIS-CarouselApp.release.xcconfig"; path = "Target Support Files/Pods-HSE-NIS-CarouselApp/Pods-HSE-NIS-CarouselApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +72,7 @@
 				3072F38D25C8649800CE7C65 /* Views */,
 				3072F38C25C8649000CE7C65 /* Models */,
 				3072F38B25C8648A00CE7C65 /* Controllers */,
+				3072F39225C8702D00CE7C65 /* Extensions */,
 				3072F37925C858FC00CE7C65 /* Assets.xcassets */,
 				3072F37B25C858FC00CE7C65 /* LaunchScreen.storyboard */,
 				3072F37E25C858FC00CE7C65 /* Info.plist */,
@@ -84,6 +91,7 @@
 		3072F38C25C8649000CE7C65 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3072F39825C8750800CE7C65 /* Trip.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -91,8 +99,17 @@
 		3072F38D25C8649800CE7C65 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3072F38F25C8668200CE7C65 /* CustomCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3072F39225C8702D00CE7C65 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3072F39425C8703C00CE7C65 /* StackView + Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		55B6C5823C9758DC7C896387 /* Frameworks */ = {
@@ -225,9 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3072F39925C8750800CE7C65 /* Trip.swift in Sources */,
 				3072F37525C858F600CE7C65 /* TripViewController.swift in Sources */,
 				3072F37125C858F600CE7C65 /* AppDelegate.swift in Sources */,
+				3072F39025C8668200CE7C65 /* CustomCell.swift in Sources */,
 				3072F37325C858F600CE7C65 /* SceneDelegate.swift in Sources */,
+				3072F39525C8703C00CE7C65 /* StackView + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
