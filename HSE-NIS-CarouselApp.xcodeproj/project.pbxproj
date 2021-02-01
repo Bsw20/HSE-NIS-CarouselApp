@@ -3,27 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3072F37125C858F600CE7C65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3072F37025C858F600CE7C65 /* AppDelegate.swift */; };
 		3072F37325C858F600CE7C65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3072F37225C858F600CE7C65 /* SceneDelegate.swift */; };
-		3072F37525C858F600CE7C65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3072F37425C858F600CE7C65 /* ViewController.swift */; };
-		3072F37825C858F600CE7C65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3072F37625C858F600CE7C65 /* Main.storyboard */; };
+		3072F37525C858F600CE7C65 /* TripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3072F37425C858F600CE7C65 /* TripViewController.swift */; };
 		3072F37A25C858FC00CE7C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3072F37925C858FC00CE7C65 /* Assets.xcassets */; };
 		3072F37D25C858FC00CE7C65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3072F37B25C858FC00CE7C65 /* LaunchScreen.storyboard */; };
+		DC6358352ED839D28F97A2C8 /* Pods_HSE_NIS_CarouselApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C26F6A5BCEB089A6C0662E /* Pods_HSE_NIS_CarouselApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3072F36D25C858F600CE7C65 /* HSE-NIS-CarouselApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HSE-NIS-CarouselApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3072F37025C858F600CE7C65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3072F37225C858F600CE7C65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3072F37425C858F600CE7C65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3072F37725C858F600CE7C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3072F37425C858F600CE7C65 /* TripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewController.swift; sourceTree = "<group>"; };
 		3072F37925C858FC00CE7C65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3072F37C25C858FC00CE7C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3072F37E25C858FC00CE7C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59C26F6A5BCEB089A6C0662E /* Pods_HSE_NIS_CarouselApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSE_NIS_CarouselApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DEEF7D69539F471470B00B /* Pods-HSE-NIS-CarouselApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSE-NIS-CarouselApp.debug.xcconfig"; path = "Target Support Files/Pods-HSE-NIS-CarouselApp/Pods-HSE-NIS-CarouselApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D0083057324E38B1CEC6AF9E /* Pods-HSE-NIS-CarouselApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSE-NIS-CarouselApp.release.xcconfig"; path = "Target Support Files/Pods-HSE-NIS-CarouselApp/Pods-HSE-NIS-CarouselApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6358352ED839D28F97A2C8 /* Pods_HSE_NIS_CarouselApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,8 @@
 			children = (
 				3072F36F25C858F600CE7C65 /* HSE-NIS-CarouselApp */,
 				3072F36E25C858F600CE7C65 /* Products */,
+				956F67746713196A0DF64772 /* Pods */,
+				55B6C5823C9758DC7C896387 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +63,53 @@
 			children = (
 				3072F37025C858F600CE7C65 /* AppDelegate.swift */,
 				3072F37225C858F600CE7C65 /* SceneDelegate.swift */,
-				3072F37425C858F600CE7C65 /* ViewController.swift */,
-				3072F37625C858F600CE7C65 /* Main.storyboard */,
+				3072F38D25C8649800CE7C65 /* Views */,
+				3072F38C25C8649000CE7C65 /* Models */,
+				3072F38B25C8648A00CE7C65 /* Controllers */,
 				3072F37925C858FC00CE7C65 /* Assets.xcassets */,
 				3072F37B25C858FC00CE7C65 /* LaunchScreen.storyboard */,
 				3072F37E25C858FC00CE7C65 /* Info.plist */,
 			);
 			path = "HSE-NIS-CarouselApp";
+			sourceTree = "<group>";
+		};
+		3072F38B25C8648A00CE7C65 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3072F37425C858F600CE7C65 /* TripViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3072F38C25C8649000CE7C65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3072F38D25C8649800CE7C65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55B6C5823C9758DC7C896387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59C26F6A5BCEB089A6C0662E /* Pods_HSE_NIS_CarouselApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		956F67746713196A0DF64772 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7DEEF7D69539F471470B00B /* Pods-HSE-NIS-CarouselApp.debug.xcconfig */,
+				D0083057324E38B1CEC6AF9E /* Pods-HSE-NIS-CarouselApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3072F38125C858FC00CE7C65 /* Build configuration list for PBXNativeTarget "HSE-NIS-CarouselApp" */;
 			buildPhases = (
+				48E9A7BFC49E7CB104139679 /* [CP] Check Pods Manifest.lock */,
 				3072F36925C858F600CE7C65 /* Sources */,
 				3072F36A25C858F600CE7C65 /* Frameworks */,
 				3072F36B25C858F600CE7C65 /* Resources */,
+				79F7CC07079475A0D46013DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,18 +173,59 @@
 			files = (
 				3072F37D25C858FC00CE7C65 /* LaunchScreen.storyboard in Resources */,
 				3072F37A25C858FC00CE7C65 /* Assets.xcassets in Resources */,
-				3072F37825C858F600CE7C65 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48E9A7BFC49E7CB104139679 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HSE-NIS-CarouselApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79F7CC07079475A0D46013DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HSE-NIS-CarouselApp/Pods-HSE-NIS-CarouselApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HSE-NIS-CarouselApp/Pods-HSE-NIS-CarouselApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HSE-NIS-CarouselApp/Pods-HSE-NIS-CarouselApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3072F36925C858F600CE7C65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3072F37525C858F600CE7C65 /* ViewController.swift in Sources */,
+				3072F37525C858F600CE7C65 /* TripViewController.swift in Sources */,
 				3072F37125C858F600CE7C65 /* AppDelegate.swift in Sources */,
 				3072F37325C858F600CE7C65 /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +234,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3072F37625C858F600CE7C65 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3072F37725C858F600CE7C65 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3072F37B25C858FC00CE7C65 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +363,7 @@
 		};
 		3072F38225C858FC00CE7C65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7DEEF7D69539F471470B00B /* Pods-HSE-NIS-CarouselApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +383,7 @@
 		};
 		3072F38325C858FC00CE7C65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0083057324E38B1CEC6AF9E /* Pods-HSE-NIS-CarouselApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
